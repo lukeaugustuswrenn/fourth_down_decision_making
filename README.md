@@ -20,8 +20,10 @@ This project includes a Streamlit dashboard that allows users to:
 
 To run the dashboard locally:
 
+```bash
 python3 -m pip install -r requirements.txt
 python3 -m streamlit run app.py
+```
 
 ## Key Findings
 
@@ -45,16 +47,14 @@ Non-decision plays, including timeouts and penalties, were removed.
 
 The Version 1 Aggressiveness Index is calculated as:
 
+```text
 Actual Go Rate - Expected Go Rate
+```
 
-Expected go rate is based on national FBS behavior in similar situations, controlling for:
-
-- Distance bucket
-- Field zone
+Expected go rate is based on national FBS behavior in similar situations, controlling for distance bucket and field zone.
 
 ## Project Structure
 
-fourth_down_decision_making/
 - app.py
 - README.md
 - requirements.txt
@@ -67,26 +67,11 @@ fourth_down_decision_making/
 
 This version is intentionally descriptive and presentation-ready.
 
-It focuses on:
-
-- Data cleaning
-- Fourth-down classification
-- National trend analysis
-- Notre Dame comparison
-- Simple context-adjusted Aggressiveness Index
-- Dashboard and presentation
+It focuses on data cleaning, fourth-down classification, national trend analysis, Notre Dame comparison, a simple context-adjusted Aggressiveness Index, a dashboard, and a presentation deck.
 
 ## Future Work
 
-Future versions could add:
-
-- Expected value modeling
-- Logistic regression decision modeling
-- Random forest or XGBoost models
-- Coach-level aggressiveness rankings
-- Similar-play search
-- Win probability integration
-- Interactive fourth-down recommendation engine
+Future versions could add expected value modeling, logistic regression, random forest or XGBoost models, coach-level rankings, similar-play search, win probability integration, and an interactive fourth-down recommendation engine.
 
 ## Author
 
