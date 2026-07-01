@@ -1,5 +1,10 @@
 # Modeling Fourth-Down Decision-Making in College Football
 
+## Live Dashboard
+
+[Open the Streamlit dashboard](https://lukeaugustuswrenn-fourth-down-decision-making-app-qom12a.streamlit.app/)
+
+
 ## Project Overview
 
 This project analyzes fourth-down decision-making in college football using FBS play-by-play data from the 2023-2025 seasons.
